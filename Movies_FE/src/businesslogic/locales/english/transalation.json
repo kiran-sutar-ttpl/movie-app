@@ -1,0 +1,27 @@
+{
+
+  "email": "Email",
+  "password": "Password",
+  "Log_In": "Sign in",
+  "Log_in_link": "Login",
+  "Remember_me": "Remember me",
+  "password_must-be_strong": "Password must be strong",
+  "add_new_movie": "Add a new movie",
+  "empty_movie_list": "Your movie list is empty",
+  "create_a_new_movie": "Create a new movie ",
+  "drop_an_image_here": "Drop an image here",
+  "title": "Title",
+  "publishing_year": "Publishing year",
+  "cancel": "Cancel",
+  "submit": "Submit",
+  "my_movies": "My movies",
+  "logout": "Logout",
+  "invalid_email_address": "Invalid email address",
+  "text_input": "Input title must be text",
+  "year_number": "Year must be valid number",
+  "edit": "Edit",
+  "delete": "Delete",
+  "next": "Next",
+  "prev": "Prev",
+  "alert_message": "Are you sure, you want to delete this movie?"
+}

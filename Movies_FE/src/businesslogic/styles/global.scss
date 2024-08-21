@@ -1,0 +1,471 @@
+@import "./colors.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.btn-text {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 24px !important;
+  letter-spacing: 0em !important;
+}
+
+.font-medium {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 48px !important;
+  font-weight: 600 !important;
+  line-height: 56px !important;
+  letter-spacing: 0em !important;
+}
+
+.font-small {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  letter-spacing: 0em !important;
+}
+
+.card-color {
+  background: $card-color;
+}
+
+.input-color {
+  background: $input-color;
+}
+
+.white-color {
+  color: $white-color;
+}
+
+.background-color {
+  background: $background-color;
+}
+
+.error-color {
+  background: $error-color;
+}
+
+.primary-color {
+  background: $primary-color;
+}
+
+.login-head {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.empty-list-title {
+  @extend .font-medium;
+  text-align: center;
+  padding-top: 280px;
+}
+
+.normal-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+input::placeholder {
+  color: $white-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400 !important;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+input {
+  color: $white-color;
+  background-color: $input-color;
+  width: 300px !important;
+  border-radius: 10px
+}
+
+.remember-me {
+  @extend .font-small;
+  text-align: center !important;
+  color: $white-color;
+  padding-top: 10px !important;
+}
+
+.login-button {
+  @extend .btn-text;
+  width: 328px; 
+  padding: 10px;
+  border-radius: 10px !important;
+  color: $white-color;
+  background-color: $primary-color;
+  text-align: center !important;
+
+}
+
+.cancel-button {
+  @extend .btn-text;
+  width: 167px !important; 
+  padding: 10px !important;
+  border-radius: 10px !important;
+  color: $white-color;
+  background-color: transparent !important;
+  text-align: center !important;
+  border: 1px solid !important;
+}
+
+.submit-button {
+  @extend .btn-text;
+  width: 179px !important; 
+  padding: 10px !important;
+  border-radius: 10px !important;
+  color: $white-color;
+  background-color: $primary-color;
+  text-align: center !important;
+}
+
+.padding-top-vector {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 880px !important;
+}
+
+.h-100 {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+.empty-movie-list {
+  @extend .font-medium;
+  text-align: center !important;
+}
+
+.MuiButtonBase-root {
+  text-transform: none !important;
+}
+
+.create-new-movie {
+  @extend .font-medium;
+  text-align: left !important;
+}
+
+.padding-left-right {
+  padding: 0 120px !important;
+}
+
+.padding-left-120 {
+  padding-left: 120px !important;
+}
+
+.upload-icons {
+  transform: rotate(90deg);
+  align-self: center;
+}
+
+.upload-draggable-text {
+  @extend .font-small;
+  border: 2px dashed $white-color;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  width: 473px;
+  height: 504px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $input-color;
+}
+
+.check-box-active {
+  .MuiSvgIcon-root {
+    color: $primary-color;
+  }
+}
+
+.d-flex {
+  display: flex;
+}
+
+.div-padding {
+  padding-top: 35px;
+}
+
+.space-between {
+  justify-content: space-between !important;
+}
+
+.margin-none {
+  margin: 0px !important;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.title-text-input {
+  .MuiInputBase-input {
+    width: 362px !important;
+    border-radius: 10px !important;
+  }
+}
+
+.publishing-year-input {
+  .MuiInputBase-input {
+    min-width: 216px !important;
+    border-radius: 10px !important;
+    max-width: 216px !important;
+  }
+  .MuiOutlinedInput-notchedOutline {
+    width: 226px !important;
+    min-width: 226px !important;
+  }
+}
+
+
+.font-for-add-movies {
+  font-size: 30px !important;
+  cursor: pointer;
+}
+
+.my-movies-title {
+  @extend .font-medium;
+  text-align: start;
+}
+
+.logout-text {
+  @extend .btn-text;
+  align-self: center !important;
+  color: $white-color;
+}
+
+.logout-icon {
+  padding-top: 16px !important;
+  padding-left: 5px !important;
+}
+
+.MuiCard-root {
+  min-width: 100px !important;
+}
+
+.cards-div-wrapping {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+}
+
+.MuiCardContent-root {
+  display: flex;
+  justify-content: space-between;
+  background-color: $card-color;
+}
+
+.MuiCard-root {
+  border-radius: 12px !important;
+  border: 1px solid $card-color;
+}
+
+.card-movie-title {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  line-height: 32px !important;
+  letter-spacing: 0em !important;
+  text-align: left !important;
+  color: $white-color;
+}
+
+.card-movie-year {
+  @extend .font-small;
+  text-align: left !important;
+  color: $white-color;
+}
+
+.card-element {
+  max-height: 280px !important;
+}
+
+.curson-pointer {
+  cursor: pointer;
+}
+
+.error-message {
+  color: $error-color;
+}
+
+.MuiCheckbox-root {
+  color: $input-color;
+}
+
+.paddin-top-24px {
+  padding-top: 24px !important;
+}
+
+.buttons-container-grid {
+  padding-top: 64px !important;
+  max-width: 400px !important;
+}
+
+.image-preview {
+  max-width: 473px !important;
+  max-height: 504px !important;
+}
+
+.text-overflow-ellipses {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  max-height: 39px !important;
+  white-space: nowrap !important;
+}
+
+.alert-modal {
+  background-color: $background-color;
+}
+
+.MuiBox-root {
+  background-color: rgba(255, 255, 255, 0.8);
+  align-items: center !important;
+  justify-content: center !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 9999;
+  display: flex !important;
+}
+
+.table-pagination {
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+
+.page-active {
+  background-color: $primary-color;
+  color: $white-color;
+  width: 32px;
+  height: 26px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.page-inactive {
+  background-color: $card-color;
+  color: $white-color;
+  width: 32px;
+  height: 26px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.paddin-bottom-24px {
+  padding-bottom: 24px !important;
+}
+
+.error-input {
+  .MuiOutlinedInput-input {
+    border: 2px solid $error-color; // Default border color
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .below-width-div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .empty-list-title, .my-movies-title {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    line-height: 40px !important;
+    letter-spacing: 0em !important;
+    // text-align: center !important;
+  }
+
+  .empty-list-title {
+    padding-top: 282px;
+  }
+
+  .login-head {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .create-new-movie {
+    font-size: 32px !important;
+    line-height: 40px !important;
+    text-align: center !important;
+  }
+
+  .padding-left-right {
+    padding: 0 24px !important;
+  }
+
+  .width-100 {
+    width: auto;
+  }
+  .padding-left-120 {
+    padding: 24px !important;
+  }
+  .padding-none-mobile-device {
+    padding: 0px !important;
+  }
+  .grid-width {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .title-text-input, .publishing-year-input {
+    .MuiInputBase-input {
+      border-radius: 10px !important;
+      max-width: 100% !important;
+      width: 100% !important;
+    }
+    .MuiOutlinedInput-notchedOutline {
+      padding-inline-end: unset !important;
+      padding-inline-start: unset !important;
+      max-width: 100% !important;
+      width: auto !important;
+    }
+  }
+  
+  .upload-draggable-text, .image-preview {
+    max-width: 100% !important;
+    min-width: auto !important;
+    width: auto !important;
+  }
+
+  .max-height-draggable, .image-preview {
+    max-height: 372px !important;
+    padding-top: 24px !important;
+  }
+
+  .buttons-container-grid {
+    max-width: 100% !important;
+  }
+
+  .overflow-for-table {
+    overflow: scroll !important;
+    max-height: 635px !important;
+  }
+
+}

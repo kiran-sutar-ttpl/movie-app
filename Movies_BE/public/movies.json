@@ -1,0 +1,116 @@
+[
+  {
+    "id": "385be2ec-d7a1-42d8-8549-c11616e09b7d",
+    "title": "The Dark Knight",
+    "publishingYear": 2008,
+    "poster": "https://example.com/dark-knight-poster.jpg"
+  },
+  {
+    "id": "9fb1b7b5-ed30-455d-837e-46540a88ed3e",
+    "title": "Inception",
+    "publishingYear": 2010,
+    "poster": "https://example.com/inception-poster.jpg"
+  },
+  {
+    "id": "daca1246-10c3-4e4d-867b-6fe557140420",
+    "title": "Fight Club",
+    "publishingYear": 1999,
+    "poster": "https://example.com/fight-club-poster.jpg"
+  },
+  {
+    "id": "f8e4b12a-9a5e-43f3-815e-54cb28de2f22",
+    "title": "The Shawshank Redemption",
+    "publishingYear": 1994,
+    "poster": "https://example.com/shawshank-redemption-poster.jpg"
+  },
+  {
+    "id": "86a2f1a2-920b-4c4b-9b9b-8a691c73c703",
+    "title": "The Godfather",
+    "publishingYear": 1972,
+    "poster": "https://example.com/godfather-poster.jpg"
+  },
+  {
+    "id": "8e0eabeb-670c-4a6b-a2c4-44e5b7933f49",
+    "title": "Forrest Gump",
+    "publishingYear": 1994,
+    "poster": "https://example.com/forrest-gump-poster.jpg"
+  },
+  {
+    "id": "cd2a2f3b-5025-4c0a-9a95-22e5a6f869c3",
+    "title": "The Matrix",
+    "publishingYear": 1999,
+    "poster": "https://example.com/matrix-poster.jpg"
+  },
+  {
+    "id": "1b68da21-8d65-403c-b162-c0a3ed3eac56",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "publishingYear": 2001,
+    "poster": "https://example.com/lotr-fellowship-poster.jpg"
+  },
+  {
+    "id": "5a456786-5b13-4d18-8e2d-9bba4a8b3ec1",
+    "title": "The Lion King",
+    "publishingYear": 1994,
+    "poster": "https://example.com/lion-king-poster.jpg"
+  },
+  {
+    "id": "3b3f8a17-8e41-4dbb-a820-70770c4ff4c5",
+    "title": "Titanic",
+    "publishingYear": 1997,
+    "poster": "https://example.com/titanic-poster.jpg"
+  },
+  {
+    "id": "7d3a05f4-315e-4e89-aa31-5a8f8f5f407b",
+    "title": "Inglourious Basterds",
+    "publishingYear": 2009,
+    "poster": "https://example.com/inglourious-basterds-poster.jpg"
+  },
+  {
+    "id": "9e7c24b2-2f6f-4ef7-8659-c18a14ad4c55",
+    "title": "The Avengers",
+    "publishingYear": 2012,
+    "poster": "https://example.com/avengers-poster.jpg"
+  },
+  {
+    "id": "a56b4a06-91c1-4c48-bfe9-5e30e2d2a8fd",
+    "title": "Jurassic Park",
+    "publishingYear": 1993,
+    "poster": "https://example.com/jurassic-park-poster.jpg"
+  },
+  {
+    "id": "f9387fc5-64bb-4177-8db2-152a740f9d1c",
+    "title": "Interstellar",
+    "publishingYear": 2014,
+    "poster": "https://example.com/interstellar-poster.jpg"
+  },
+  {
+    "id": "5fd0f9e2-ea0a-45b8-88cf-2e301fc3521f",
+    "title": "Avatar",
+    "publishingYear": 2009,
+    "poster": "https://example.com/avatar-poster.jpg"
+  },
+  {
+    "id": "0f130a4c-86b8-4b72-9f6f-05c65d8f3940",
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "publishingYear": 2004,
+    "poster": "https://example.com/eternal-sunshine-poster.jpg"
+  },
+  {
+    "id": "fe5bcb84-6c0d-47ec-ba3d-e580468ce8e9",
+    "title": "Gladiator",
+    "publishingYear": 2000,
+    "poster": "https://example.com/gladiator-poster.jpg"
+  },
+  {
+    "id": "c6cf5c65-3a11-4e76-916a-b9b9a5596044",
+    "title": "The Silence of the Lambs",
+    "publishingYear": 1991,
+    "poster": "https://example.com/silence-lambs-poster.jpg"
+  },
+  {
+    "id": "b6dade3a-40b8-497a-bd20-6f8e867af7f2",
+    "title": "The Social Network",
+    "publishingYear": 2010,
+    "poster": "https://example.com/social-network-poster.jpg"
+  }
+]

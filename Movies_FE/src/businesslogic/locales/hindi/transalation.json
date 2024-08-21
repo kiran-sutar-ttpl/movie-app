@@ -1,0 +1,18 @@
+{
+  "email": "ईमेल",
+  "password": "पासवर्ड",
+  "Log_In": "साइन इन करें",
+  "Log_in_link": "लॉगिन",
+  "Remember_me": "मुझे याद रखें",
+  "password_must-be_strong": "पासवर्ड मजबूत होना चाहिए।",
+  "add_new_movie": "नई फिल्म जोड़ें",
+  "empty_movie_list": "आपकी फिल्म सूची खाली है",
+  "create_a_new_movie": "नई फिल्म बनाएं",
+  "drop_an_image_here": "यहाँ एक छवि छोड़ें",
+  "title": "शीर्षक",
+  "publishing_year": "प्रकाशन वर्ष",
+  "cancel": "रद्द करें",
+  "submit": "प्रस्तुत करें",
+  "my_movies": "मेरी फिल्में",
+  "logout": "लॉग आउट"
+}
